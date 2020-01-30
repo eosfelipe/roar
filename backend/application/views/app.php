@@ -251,6 +251,10 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group has-error has-danger">
+                                            <input id="form_tel" type="tel" name="tel" placeholder="Teléfono" required="required" pattern="[0-9]{10}" maxlength="10"> </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group has-error has-danger">
                                             <input id="form_email" type="email" name="email" placeholder="Correo electrónico" required="required"> </div>
                                     </div>
                                     <div class="col-md-12">

@@ -190,8 +190,8 @@ $(window).on("load", function () {
                     $('#contact-form')[0].reset();
                 }
             })
-            .fail(function(){
-                console.log("error")
+            .fail(function(data){
+                console.log('ERROR: '+data.err);
             })
             .always(function(){
                 console.log("complete")

@@ -15,14 +15,32 @@ class App extends CI_Controller {
 
     public function contacto(){
         if(isset($_POST['email'])){
-            $respuesta = array(
-                'err'=>false,
-                'type'=>'success',
-                'message'=>'Gracias'
-            );
-            //header
-            header('Content-Type: application/json');
-            echo json_encode($respuesta);
+            $registro = $this->App_model->set_data($_POST);//regresa objeto
+            if(is_object($registro)){
+                $respuesta_model = $registro->insert();
+                if($respuesta_model){
+                    $respuesta = array(
+                        'err'=>false,
+                        'type'=>'success',
+                        'message'=>'Gracias por contactarnos.'
+                    );
+                    //header
+                    header('Content-Type: application/json');
+                    echo json_encode($respuesta);
+                }else {
+                    $respuesta = array(
+                        'err'=>true,
+                        'type'=>'danger',
+                        'message'=>'Error, correo ya registrado.'
+                    );
+                    //header
+                    header('Content-Type: application/json');
+                    echo json_encode($respuesta);
+                }
+            }
+            else{
+                echo 'Error, campos vacios';
+            }
         }
         else{
             echo "??? WATHAFACK";
