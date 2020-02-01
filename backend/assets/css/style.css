@@ -1487,9 +1487,28 @@ footer p a {
     }
 }
 
+/* CUSTOM */
 #logo-text {
     text-transform: uppercase;
 }
 .togo-fixed-sidebar .logo {
     padding-bottom: 5px;
+}
+.float{
+	position:sticky;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:1250px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }

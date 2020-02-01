@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -178,36 +179,39 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme">
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
-                                <div class="con"> <span class="category">
-                                        <a href="project.html">Interior</a>
-                                    </span>
-                                    <h5><a href="project.html">Art Museum, USA</a></h5> 
-                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
+                                <div class="position-re o-hidden"><canvas id="altamisa"></canvas></div>
+                                <div class="con">
+                                <span class="category">
+                                <a href="project.html">Interior</a>
+                                </span>
+                                <h5><a href="project.html">Art Museum, USA</a></h5> 
+                                <a href="project.html"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
-                                <div class="con"> <span class="category">
-                                        <a href="project.html">Architecture</a>
-                                    </span>
-                                    <h5><a href="project.html">Drana Villa, CA</a></h5>
-                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
+                                <div class="position-re o-hidden"><canvas id="amanthe"></canvas></div>
+                                <div class="con">
+                                <span class="category">
+                                <a href="project.html">Architecture</a>
+                                </span>
+                                <h5><a href="project.html">Drana Villa, CA</a></h5>
+                                <a href="project.html"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
-                                <div class="con"> <span class="category">
-                                        <a href="project.html">Design</a>
-                                    </span>
-                                    <h5><a href="#">Home Design, USA</a></h5>
-                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
+                                <div class="position-re o-hidden"><canvas id="palmares"></canvas></div>
+                                <div class="con">
+                                <span class="category">
+                                <a href="project.html">Design</a>
+                                </span>
+                                <h5><a href="#">Home Design, USA</a></h5>
+                                <a href="project.html"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </div><!--owl-carousel owl-theme -->
+                    </div><!--col-md-12 -->
+                </div><!--row -->
+            </div><!--container -->
         </section>
 
         <!-- Contact -->
@@ -305,6 +309,9 @@
                 </div>
             </div>
         </footer>
+        <a href="https://api.whatsapp.com/send?phone=+529994008395&text=[SITIOWEB] Estoy interesado en recibir más información sobre los desarrollos." class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
     </div>
     <script>
     var ano=new Date,html=document.getElementsByClassName("ano");
