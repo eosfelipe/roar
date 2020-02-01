@@ -52,9 +52,9 @@
             <!-- Menu social media -->
             <div class="togo-menu-social-media">
                 <div class="social">
-                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="https://www.facebook.com/GrupoROAR/"><i class="ti-facebook"></i></a>
                     <!-- <a href="#"><i class="ti-twitter"></i></a> -->
-                    <a href="#"><i class="ti-instagram"></i></a>
+                    <a href="https://instagram.com/grupo.roar"><i class="ti-instagram"></i></a>
                 </div>
                 <div class="togo-menu-copyright">
                     <p>©<span class="ano"></span> Todos los derechos reservados.</p>
@@ -74,25 +74,25 @@
         <!-- Header Slider -->
         <header class="header pos-re slider-fade" data-scroll-index="0">
             <div class="owl-carousel owl-theme">
-                <div class="item bg-img" data-overlay-dark="3" data-background="assets/img/1920x1080.jpg">
+                <div class="item bg-img" data-overlay-dark="0" data-background="assets/img/cover_altamisa.jpg">
                     <div class="container text-center v-middle caption">
-                        <h4>CASA</h4>
-                        <h1>MÉRIDA, YUCATÁN</h1>
+                        <h4>Invierte en:</h4>
+                        <h1>ALTAMISA</h1>
                         <a href="#" class="btn"><span>Descubrir más <i class="ti-arrow-right"></i></span></a>
                     </div>
                 </div>
-                <div class="item bg-img" data-overlay-dark="3" data-background="assets/img/1920x1080.jpg">
+                <div class="item bg-img" data-overlay-dark="0" data-background="assets/img/cover_2.jpg">
                     <div class="container text-center v-middle caption">
-                        <h4>DEPARTAMENTO</h4>
-                        <h1>MÉRIDA, YUCATÁN</h1>
-                        <a href="#" class="btn"><span>Descubrir más <i class="ti-arrow-right"></i></span></a>
+                        <h4>Lotes semiurbanizados</h4>
+                        <h1>AMANTHÉ</h1>
+                        <a href="https://amanthe.com" class="btn" target="_blank"><span>Descubrir más <i class="ti-arrow-right"></i></span></a>
                     </div>
                 </div>
-                <div class="item bg-img" data-overlay-dark="3" data-background="assets/img/1920x1080.jpg">
+                <div class="item bg-img" data-overlay-dark="4" data-background="assets/img/cover_3.jpg">
                     <div class="container text-center v-middle caption">
-                        <h4>BODEGA</h4>
-                        <h1>MÉRIDA, YUCATÁN</h1>
-                        <a href="#" class="btn"><span>Descubrir más <i class="ti-arrow-right"></i></span></a>
+                        <h4>Lotes de inversión</h4>
+                        <h1>PALMARES DE HUNUCMÁ</h1>
+                        <a href="https://capitalinmobiliario.mx" class="btn"><span>Descubrir más <i class="ti-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-md-6 mb-20 image">
                         <div class="img"> <img src="assets/img/25.png" alt="">
-                            <a class="vid" href="https://www.youtube.com/">
+                            <a class="vid" href="https://youtu.be/xACuS0RRcC8">
                                 <span class="vid-togo-button"><i class="ti-control-play"></i></span>
                             </a>
                         </div>
@@ -178,7 +178,7 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme">
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"> <img src="assets/img/340x510.jpg" alt=""> </div>
+                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
                                 <div class="con"> <span class="category">
                                         <a href="project.html">Interior</a>
                                     </span>
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"> <img src="assets/img/340x510.jpg" alt=""> </div>
+                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
                                 <div class="con"> <span class="category">
                                         <a href="project.html">Architecture</a>
                                     </span>
@@ -196,20 +196,11 @@
                                 </div>
                             </div>
                             <div class="item mb-50">
-                                <div class="position-re o-hidden"> <img src="assets/img/340x510.jpg" alt=""> </div>
+                                <div class="position-re o-hidden"><canvas class="altamisa"></canvas></div>
                                 <div class="con"> <span class="category">
                                         <a href="project.html">Design</a>
                                     </span>
                                     <h5><a href="#">Home Design, USA</a></h5>
-                                    <a href="project.html"><i class="ti-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="item mb-50">
-                                <div class="position-re o-hidden"> <img src="assets/img/340x510.jpg" alt=""> </div>
-                                <div class="con"> <span class="category">
-                                        <a href="project.html">Interior</a>
-                                    </span>
-                                    <h5><a href="project.html">House Office, CA</a></h5>
                                     <a href="project.html"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -218,6 +209,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Contact -->
         <section class="contact mt-100 pb-100" data-scroll-index="5">
             <div class="container">
@@ -232,9 +224,9 @@
                         <div class="item bg-4">
                             <div class="con">
                                 <h5>Mérida, Yucatán</h5>
-                                <p><i class="ti-home" style="font-size: 15px; color: #c5a47e;"></i> 15 Crow Pl, South Kensington, London, UK</p>
-                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i>9999123456</p>
-                                <p><i class="ti-envelope" style="font-size: 15px; color: #c5a47e;"></i> contacto@gruporoar.mx</p>
+                                <p><i class="ti-home" style="font-size: 15px; color: #c5a47e;"></i> Calle 18B #298 por 15A y 15B Col. Altabrisa.</p>
+                                <p><i class="ti-mobile" style="font-size: 15px; color: #c5a47e;"></i><a href="tel:+529994008395">9994008395</a></p>
+                                <p><i class="ti-envelope" style="font-size: 15px; color: #c5a47e;"></i> <a href="mailto:contacto@gruporoar.mx">contacto@gruporoar.mx</a></p>
                             </div>
                         </div>
                     </div>
@@ -282,19 +274,22 @@
                 <div class="row">
                     <div class="col-md-12 owl-carousel owl-theme">
                         <div class="client-logo">
-                            <a href="#"><img src="assets/img/170x75.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/altamisa.png" alt=""></a>
                         </div>
                         <div class="client-logo">
-                            <a href="#"><img src="assets/img/170x75.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/amanthe.png" alt=""></a>
                         </div>
                         <div class="client-logo">
-                            <a href="#"><img src="assets/img/170x75.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/palmares.png" alt=""></a>
                         </div>
                         <div class="client-logo">
-                            <a href="#"><img src="assets/img/170x75.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/altamisa.png" alt=""></a>
                         </div>
                         <div class="client-logo">
-                            <a href="#"><img src="assets/img/170x75.jpg" alt=""></a>
+                            <a href="#"><img src="assets/img/amanthe.png" alt=""></a>
+                        </div>
+                        <div class="client-logo">
+                            <a href="#"><img src="assets/img/palmares.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -330,6 +325,8 @@
     <script src="assets/js/autotype.js"></script>
     <script src="assets/js/bootstrap.menu.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/pdf.js"></script>
+    <script src="assets/js/pdf_scripts.js"></script>
 
 </body>
 
