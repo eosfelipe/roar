@@ -13,7 +13,9 @@ class App extends CI_Controller {
 		$this->load->view('app');
     }
 
-    public function proyectos($data){
+    public function proyectos($id){
+        $data = array();
+        $data['id'] = $id;
         $this->load->view('proyectos',$data);
     }
 

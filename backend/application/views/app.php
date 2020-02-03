@@ -186,7 +186,7 @@
                                 <!-- <a href="project.html">Architecture</a> -->
                                 </span>
                                 <!-- <h5><a href="project.html">Drana Villa, CA</a></h5> -->
-                                <a href="index.php/app/proyectos"><i class="ti-arrow-right"></i></a>
+                                <a href="index.php/app/proyectos/1"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
 
